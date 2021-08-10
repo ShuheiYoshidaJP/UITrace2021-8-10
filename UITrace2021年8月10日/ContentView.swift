@@ -93,6 +93,7 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+///https://stackoverflow.com/questions/58896661/swiftui-create-image-slider-with-dots-as-indicators
 struct PagingView<Content>: View where Content: View {
     
     @Binding var index: Int
